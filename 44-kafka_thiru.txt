@@ -1,0 +1,83 @@
+{
+"userId" :1
+"userName":"thirumalesh",
+"email" : "findmethiru@gmail.com",
+"address":{
+                          "HNO":"1-6",
+	         "APRTMENT NO" : "HARIVILLU",
+		"STATE":"TS"
+		"COUNTRY":"INDIA"
+	}
+
+}
+
+
+Try this for windows:
+
+For zookeeper:
+============
+zookeeper-server-start.bat zookeeper.properties
+
+
+For Kafka Server:
+==============
+kafka-server-start.bat server.properties
+
+
+
+For zookeeper:
+===========
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+For Kafka Server:
+=============
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+
+for linux
+======
+
+kafka-topics.bat --create --topic your_topic_name --bootstrap-server your_bootstrap_server --partitions 3 --replication-factor 1
+
+for windows
+========
+
+kafka-topics.bat --create --topic your_topic_name --bootstrap-server your_bootstrap_server --partitions 3 --replication-factor 1
+
+
+create topic command 
+=================
+kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic demo-sbms-topic1
+
+view created topics using below commands
+--------------------------------------------------------
+
+kafka-topics.bat --list --bootstrap-server localhost:9092
+
+
+
+
+[
+  {
+    "customerId": 1,
+    "customerName": "John Doe",
+    "customerEmail": "john.doe@example.com"
+  },
+  {
+    "customerId": 2,
+    "customerName": "Alice Smith",
+    "customerEmail": "alice.smith@example.com"
+  },
+  {
+    "customerId": 3,
+    "customerName": "Bob Johnson",
+    "customerEmail": "bob.johnson@example.com"
+  }
+]
+
+
+
+
+
+
+
