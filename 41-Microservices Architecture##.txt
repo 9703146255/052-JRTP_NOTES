@@ -16,7 +16,7 @@ Application can be developed in 2 ways
 -> If we develop all the functionalities in one single application then it is called as Monolith Application
 
 ++++++++++
-Advantages [  dev, test,deb, dep,  kt sess,performance]
+Advantages [DEV,DEP,PER,TEST,DEB,KT]
 ++++++++++
 1) Development is easy
 2) Deployment is easy
@@ -47,11 +47,17 @@ Advantages [loosly coupled, fast dev, quick rel, no scalability prob, no single 
 ++++++++++
 
 1) Loosely coupled
+
 2) Fast Development
+
 3) Quick Releases
+
 4) Flexibility
+
 5) Scalability
+
 6) No Single Point of failure
+
 7) Technology independence
 
 

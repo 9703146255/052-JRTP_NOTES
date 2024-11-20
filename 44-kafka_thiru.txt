@@ -45,9 +45,12 @@ for windows
 kafka-topics.bat --create --topic your_topic_name --bootstrap-server your_bootstrap_server --partitions 3 --replication-factor 1
 
 
+kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic demo-dbms-topic
+
+
 create topic command 
 =================
-kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic demo-sbms-topic1
+kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic demo-sbms-topic3
 
 view created topics using below commands
 --------------------------------------------------------

@@ -1,5 +1,5 @@
 ==============
-OOPS Principles[APEI]
+OOPS Principles[E-API]
 ==============
 1) Encapsulation 
 2) Polymorphism
@@ -7,7 +7,7 @@ OOPS Principles[APEI]
 4) Inheritence
 
 ====================
-SOLID OOPS Principles[Aim readabiliry, maintainability, loosly coupling]
+SOLID OOPS Principles[Aim readabiliry, maintainability, loosly coupling][RML]
 ====================
 
 S => Single Responsibility
@@ -21,7 +21,7 @@ I  => Interface Seggregation
 D => Dependency Inversion / Injection
 
 
-=> The main aim of above SOLID OOPS Principles to make our code more readable, maintainable and loosely coupled.
+=> The main aim of above SOLID OOPS Principles to make our code more readable, maintainable and loosely coupled[RML].
 
 
 

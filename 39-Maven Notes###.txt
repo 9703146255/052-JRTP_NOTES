@@ -213,7 +213,8 @@ creating web application using maven
 
 	</dependencies>
 
-
+'transitive - dependency' management
+--------------------------------------
 -> Maven will perform 'transitive - dependency' management (It will download all related jars also)
 
 -> When we add 'spring-context' it downloaded "spring-aop, spring-core, spring-beans, spring-expression & spring-jcl dependencies"[spring-context[[spring-aop,spring-beans,spring-core,spirng-expression,spirng-jcl]]
